@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A209A9117770D0D00B16110 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A209A9017770D0D00B16110 /* Cocoa.framework */; };
+		3A209A9B17770D0D00B16110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A209A9917770D0D00B16110 /* InfoPlist.strings */; };
+		3A209A9D17770D0D00B16110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A209A9C17770D0D00B16110 /* main.m */; };
+		3A209AA117770D0D00B16110 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A209A9F17770D0D00B16110 /* Credits.rtf */; };
+		3A209AA417770D0D00B16110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A209AA317770D0D00B16110 /* AppDelegate.m */; };
+		3A209AA717770D0D00B16110 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A209AA517770D0D00B16110 /* MainMenu.xib */; };
+		3A209AB417770F6200B16110 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A209AB317770F6200B16110 /* CFNetwork.framework */; };
+		3A209AB617770F6500B16110 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A209AB517770F6500B16110 /* SystemConfiguration.framework */; };
+		3A209ABF1777134600B16110 /* SocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A209ABE1777134600B16110 /* SocketServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A209A8D17770D0D00B16110 /* SocketServerWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServerWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A209A9017770D0D00B16110 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A209A9317770D0D00B16110 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3A209A9417770D0D00B16110 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A209A9517770D0D00B16110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A209A9817770D0D00B16110 /* SocketServerWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocketServerWindow-Info.plist"; sourceTree = "<group>"; };
+		3A209A9A17770D0D00B16110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A209A9C17770D0D00B16110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A209A9E17770D0D00B16110 /* SocketServerWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketServerWindow-Prefix.pch"; sourceTree = "<group>"; };
+		3A209AA017770D0D00B16110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3A209AA217770D0D00B16110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A209AA317770D0D00B16110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A209AA617770D0D00B16110 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A209AB317770F6200B16110 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3A209AB517770F6500B16110 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A209ABD1777134600B16110 /* SocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketServer.h; sourceTree = "<group>"; };
+		3A209ABE1777134600B16110 /* SocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A209A8A17770D0D00B16110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A209AB617770F6500B16110 /* SystemConfiguration.framework in Frameworks */,
+				3A209AB417770F6200B16110 /* CFNetwork.framework in Frameworks */,
+				3A209A9117770D0D00B16110 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A209A8417770D0D00B16110 = {
+			isa = PBXGroup;
+			children = (
+				3A209ABD1777134600B16110 /* SocketServer.h */,
+				3A209ABE1777134600B16110 /* SocketServer.m */,
+				3A209AB517770F6500B16110 /* SystemConfiguration.framework */,
+				3A209AB317770F6200B16110 /* CFNetwork.framework */,
+				3A209A9617770D0D00B16110 /* SocketServerWindow */,
+				3A209A8F17770D0D00B16110 /* Frameworks */,
+				3A209A8E17770D0D00B16110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A209A8E17770D0D00B16110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A209A8D17770D0D00B16110 /* SocketServerWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A209A8F17770D0D00B16110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A209A9017770D0D00B16110 /* Cocoa.framework */,
+				3A209A9217770D0D00B16110 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A209A9217770D0D00B16110 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A209A9317770D0D00B16110 /* AppKit.framework */,
+				3A209A9417770D0D00B16110 /* CoreData.framework */,
+				3A209A9517770D0D00B16110 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3A209A9617770D0D00B16110 /* SocketServerWindow */ = {
+			isa = PBXGroup;
+			children = (
+				3A209AA217770D0D00B16110 /* AppDelegate.h */,
+				3A209AA317770D0D00B16110 /* AppDelegate.m */,
+				3A209AA517770D0D00B16110 /* MainMenu.xib */,
+				3A209A9717770D0D00B16110 /* Supporting Files */,
+			);
+			path = SocketServerWindow;
+			sourceTree = "<group>";
+		};
+		3A209A9717770D0D00B16110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A209A9817770D0D00B16110 /* SocketServerWindow-Info.plist */,
+				3A209A9917770D0D00B16110 /* InfoPlist.strings */,
+				3A209A9C17770D0D00B16110 /* main.m */,
+				3A209A9E17770D0D00B16110 /* SocketServerWindow-Prefix.pch */,
+				3A209A9F17770D0D00B16110 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A209A8C17770D0D00B16110 /* SocketServerWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A209AAA17770D0D00B16110 /* Build configuration list for PBXNativeTarget "SocketServerWindow" */;
+			buildPhases = (
+				3A209A8917770D0D00B16110 /* Sources */,
+				3A209A8A17770D0D00B16110 /* Frameworks */,
+				3A209A8B17770D0D00B16110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketServerWindow;
+			productName = SocketServerWindow;
+			productReference = 3A209A8D17770D0D00B16110 /* SocketServerWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A209A8517770D0D00B16110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zzzili;
+			};
+			buildConfigurationList = 3A209A8817770D0D00B16110 /* Build configuration list for PBXProject "SocketServerWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A209A8417770D0D00B16110;
+			productRefGroup = 3A209A8E17770D0D00B16110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A209A8C17770D0D00B16110 /* SocketServerWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A209A8B17770D0D00B16110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A209A9B17770D0D00B16110 /* InfoPlist.strings in Resources */,
+				3A209AA117770D0D00B16110 /* Credits.rtf in Resources */,
+				3A209AA717770D0D00B16110 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A209A8917770D0D00B16110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A209A9D17770D0D00B16110 /* main.m in Sources */,
+				3A209AA417770D0D00B16110 /* AppDelegate.m in Sources */,
+				3A209ABF1777134600B16110 /* SocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A209A9917770D0D00B16110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A209A9A17770D0D00B16110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A209A9F17770D0D00B16110 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A209AA017770D0D00B16110 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3A209AA517770D0D00B16110 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A209AA617770D0D00B16110 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A209AA817770D0D00B16110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A209AA917770D0D00B16110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A209AAB17770D0D00B16110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketServerWindow/SocketServerWindow-Prefix.pch";
+				INFOPLIST_FILE = "SocketServerWindow/SocketServerWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A209AAC17770D0D00B16110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketServerWindow/SocketServerWindow-Prefix.pch";
+				INFOPLIST_FILE = "SocketServerWindow/SocketServerWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A209A8817770D0D00B16110 /* Build configuration list for PBXProject "SocketServerWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A209AA817770D0D00B16110 /* Debug */,
+				3A209AA917770D0D00B16110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A209AAA17770D0D00B16110 /* Build configuration list for PBXNativeTarget "SocketServerWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A209AAB17770D0D00B16110 /* Debug */,
+				3A209AAC17770D0D00B16110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A209A8517770D0D00B16110 /* Project object */;
+}
